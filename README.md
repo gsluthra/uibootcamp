@@ -1,5 +1,6 @@
 UI Bootcamp Stuff.
 
+```bash
 # See package.json to see NPM dependencies
 
 # To Start the express server
@@ -12,3 +13,4 @@ gulp css
 # Installed Gulp using
 npm install gulp-cli -g
 npm install gulp
+```
