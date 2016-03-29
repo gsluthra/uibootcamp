@@ -17,8 +17,14 @@ gulp.task('watch', function(){
 
 var runSequence = require('run-sequence');
 gulp.task('default', function(callback){
-	runSequence(['coffee', 'css'], 'watch', callback)
+	runSequence(['coffee', 'css'], 'test', 'watch', callback)
 });
+
+var jasmine = require('gulp-jasmine');
+require('coffee-script/register')
+gulp.task('test', function(){
+    gulp.src('test/**/*.coffee').pipe(jasmine());
+})
 
 
 

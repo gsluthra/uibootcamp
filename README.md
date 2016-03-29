@@ -13,4 +13,11 @@ gulp css
 # Installed Gulp using
 npm install gulp-cli -g
 npm install gulp
+
+# Install Jasmine
+npm install jasmine --save-dev
+npm install gulp-jasmine
+
+npm install coffee-script --save-dev
+
 ```
