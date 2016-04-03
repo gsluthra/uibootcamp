@@ -1,3 +1,4 @@
-alert "I knew it!" if elvis?
+FlickrService  = require './FlickrService'
 
-alert "I knew it!" if elvis?
+FlickrService.getImages 'sunrise', (images) ->
+  console.log images

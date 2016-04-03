@@ -21,3 +21,11 @@ npm install gulp-jasmine
 npm install coffee-script --save-dev
 
 ```
+
+FlickrAPI
+https://www.npmjs.com/package/flickrapi
+
+```bash
+curl https://raw.githubusercontent.com/swapneeldesai/ui-bootcamp/master/src/client/assets/js/libs/flickrapi.dev.js       >          app/src/libs/flickrapi.js
+```
+
